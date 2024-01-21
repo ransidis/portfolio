@@ -1,0 +1,9 @@
+#parent li a{
+    color: white;
+}
+
+#parent li a:hover{
+    background-color:#E6D402;
+    /* transition: background-color 1s; */
+    color: black;
+}
