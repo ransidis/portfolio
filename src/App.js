@@ -12,7 +12,7 @@ function App() {
   return (
   <div className='d-flex' >
     <div className='col-sm-2'><SideMenu/></div>
-    <div className='body'>
+    <div className='body col-sm-10' style={{ overflowY: 'auto', maxHeight: '100vh' }}>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/about-me"  element={<AboutMe/>} />

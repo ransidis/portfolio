@@ -19,8 +19,6 @@ code {
 .body{
   color: white;
   background-color: black;
-  overflow-y: auto;
-  max-height: 100vh;
 }
 
 button{
