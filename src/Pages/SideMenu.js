@@ -14,9 +14,9 @@ function SideMenu() {
                 </a>
                 <hr className='text-white d-none d-sm-block'/>
                 <ul
-                    class="nav nav-pill flex-column mt-2 mt-sm-0" id='parent'
+                    class="nav nav-pill flex-column mt-2 mt-sm-0 " id='parent'
                 >
-                    <li class="nav-item my-1 py-1 py-sm-0">
+                    <li class="nav-item my-1 py-1 py-sm-0 ">
                         <Link to='/' class="nav-link text-center text-sm-start active" aria-current="page" style={{borderRadius:'1rem', fontWeight:'bold'}}>
                         <i class="bi bi-house-door-fill"></i>
                         <span className='ms-2 d-none d-sm-inline'>HOME</span>
@@ -29,7 +29,7 @@ function SideMenu() {
                         </Link>
                     </li>
                     <li class="nav-item my-1 py-1 py-sm-0">
-                    <Link to='/' class="nav-link text-center text-sm-start active" aria-current="page" style={{borderRadius:'1rem', fontWeight:'bold'}}>
+                    <Link to='/education' class="nav-link text-center text-sm-start active" aria-current="page" style={{borderRadius:'1rem', fontWeight:'bold'}}>
                         <i class="bi bi-backpack4-fill"></i>
                         <span className='ms-2 d-none d-sm-inline'>EDUCATION</span>
                         </Link>
@@ -42,6 +42,7 @@ function SideMenu() {
                     </li>
 
                 </ul>
+                
 
                 </div>
             </div>
