@@ -20,6 +20,9 @@ const EducationTimeline = () => {
   ];
 
   return (
+    <div className='container'>
+      <div className='row'>
+        <div className='col-12'>
     <ul className="timeline" style={{marginTop:'2rem'}}>
       {educationData.map((educationItem) => (
         <li key={educationItem.id} className="timeline-item">
@@ -32,6 +35,9 @@ const EducationTimeline = () => {
         </li>
       ))}
     </ul>
+    </div>
+    </div>
+    </div>
   );
 };
 

@@ -14,7 +14,7 @@ function Certificates() {
   const certificateslist = [
     {
       certImg: metacert,
-      certName: 'Front End Developer Professional Certificate',
+      certName: 'Front End Developer Specialization',
       certDate: '2023',
       certBy: 'by META'
     },
@@ -33,10 +33,10 @@ function Certificates() {
   ];
 
   return (
-    <Carousel data-bs-theme="dark" activeIndex={index} onSelect={handleSelect} style={{ width: '19rem' }}>
+    <Carousel data-bs-theme="light" activeIndex={index} onSelect={handleSelect} style={{ width: 'auto' }}>
       {certificateslist.map((certificate) => (
         <Carousel.Item key={certificate.certName}>
-          <img src={certificate.certImg} style={{ width: '100%' }} alt={certificate.certName} />
+          <img src={certificate.certImg} style={{ width: '100%'}} alt={certificate.certName} />
           <p style={{ textAlign: 'center', paddingTop: '1rem', fontSize:'1.5rem', fontWeight:'600', lineHeight:'1.2' }}>{certificate.certName}</p>
           <p style={{ textAlign: 'center', marginBottom: '3rem', marginTop:'-1rem', fontSize:'0.9rem', fontStyle:'italic' }}>{certificate.certBy}, {certificate.certDate}</p>
         </Carousel.Item>

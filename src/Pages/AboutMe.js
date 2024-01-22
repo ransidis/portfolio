@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className='container-fluid aboutme'>
       <div className='row '>
         <div className='col'>
-          <h1>About Me</h1>
+          <h1 style={{fontWeight:'700', color:'#E6D402'}}>About Me</h1>
         </div>
       </div>
       <div className='row'>

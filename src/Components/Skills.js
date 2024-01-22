@@ -5,10 +5,10 @@ import './Skills.css'
 const Skills = () => {
   return (
     <div>
-        <div className='container-fluid skills'>
+        <div className='container-fluid skills p-4'>
             <div className='row'>
                 <h3 style={{fontWeight:'700'}}>Languages & Frameworks</h3>
-                <div className='col-12 col-sm-4'>
+                <div className='col-12 col-sm-6'>
                     <span id="skill">
                         <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/></span>HTML <span>90%</span> </p>
                         <ProgressBar animated now={90} variant='warning' style={{height:'0.5rem'}}/>
@@ -26,7 +26,7 @@ const Skills = () => {
                         <ProgressBar animated now={70} variant='warning' style={{height:'0.5rem'}}/>
                     </span>
                 </div>
-                <div className='col-12 col-sm-4'>
+                <div className='col-12 col-sm-6'>
                 <span id="skill">
                         <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/color/28/mysql-logo.png" alt="mysql-logo"/></span>MySql <span>70%</span> </p>
                         <ProgressBar animated now={70} variant='warning' style={{height:'0.5rem'}}/>
@@ -47,7 +47,7 @@ const Skills = () => {
             </div>
             <div className='row'>
                 <h3 style={{fontWeight:'700', marginTop:'2rem'}}>Applications</h3>
-                <div className='col-12 col-sm-4'>
+                <div className='col-12 col-sm-6'>
                         <span id="skill">
                                 <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/color/28/visual-studio-code-2019.png" alt="visual-studio-code-2019"/></span>VS Code <span>90%</span> </p>
                                 <ProgressBar animated now={90}  style={{height:'0.5rem'}}/>
@@ -61,7 +61,7 @@ const Skills = () => {
                                 <ProgressBar animated now={80}  style={{height:'0.5rem'}}/>
                         </span>
                 </div>
-                <div className='col-12 col-sm-4'>
+                <div className='col-12 col-sm-6'>
                         <span id="skill">
                                 <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/color/28/adobe-premiere-pro--v1.png" alt="adobe-premiere-pro--v1"/></span>Adobe Premiere Pro
  <span>80%</span> </p>
