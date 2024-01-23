@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ransidis/portfolio/static/css/main.1c139c22.css",
+    "main.js": "/ransidis/portfolio/static/js/main.2ab41cd0.js",
+    "static/js/787.7da95b79.chunk.js": "/ransidis/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/littlelemon.png": "/ransidis/portfolio/static/media/littlelemon.21ee31b53261d55b555a.png",
+    "static/media/fa-solid-900.ttf": "/ransidis/portfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/fa-brands-400.ttf": "/ransidis/portfolio/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/bootstrap-icons.woff?": "/ransidis/portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/fa-solid-900.woff2": "/ransidis/portfolio/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/bootstrap-icons.woff2?": "/ransidis/portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/googlecert.jpg": "/ransidis/portfolio/static/media/googlecert.06366eaa8c3e3b4dbeea.jpg",
+    "static/media/fa-brands-400.woff2": "/ransidis/portfolio/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/myimage.svg": "/ransidis/portfolio/static/media/myimage.a7149b20f6742b17fdc2ca8f0f473d6b.svg",
+    "static/media/certapnic.jpg": "/ransidis/portfolio/static/media/certapnic.97adeb95eeef7138b0c1.jpg",
+    "static/media/coverimg.svg": "/ransidis/portfolio/static/media/coverimg.25fb1a484c47efa7574b.svg",
+    "static/media/fa-regular-400.ttf": "/ransidis/portfolio/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/metacert.jpg": "/ransidis/portfolio/static/media/metacert.ea44ef07c7b9fa8ad802.jpg",
+    "static/media/portfolio.png": "/ransidis/portfolio/static/media/portfolio.24bf70d56c054b180319.png",
+    "static/media/fa-regular-400.woff2": "/ransidis/portfolio/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/Logo_oBackgroung.svg": "/ransidis/portfolio/static/media/Logo_oBackgroung.977b5a44578eb12d7b9bc1321a6d9eb0.svg",
+    "static/media/fa-v4compatibility.ttf": "/ransidis/portfolio/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/loading.svg": "/ransidis/portfolio/static/media/loading.50059e24bd97bd4554cff1785dcf800f.svg",
+    "static/media/fa-v4compatibility.woff2": "/ransidis/portfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/ransidis/portfolio/index.html",
+    "main.1c139c22.css.map": "/ransidis/portfolio/static/css/main.1c139c22.css.map",
+    "main.2ab41cd0.js.map": "/ransidis/portfolio/static/js/main.2ab41cd0.js.map",
+    "787.7da95b79.chunk.js.map": "/ransidis/portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c139c22.css",
+    "static/js/main.2ab41cd0.js"
+  ]
+}
