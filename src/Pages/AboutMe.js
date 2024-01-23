@@ -3,6 +3,8 @@ import './AboutMe.css'
 import { Link } from 'react-router-dom'
 import Transitions from '../Transitions'
 
+document.title = 'About Me | Portfolio'
+
 const AboutMe = () => {
   return (
     <Transitions>

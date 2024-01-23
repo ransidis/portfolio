@@ -18,7 +18,11 @@ code {
 
 .body{
   color: white;
-  background-color: black;
+  background-color: black; 
+  background-image: url('../src/images/coverimg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button{

@@ -10,7 +10,7 @@ function SideMenu() {
             <div className='col-auto d-flex flex-column justify-content-center min-vh-100 bg-dark '  >
             <div className='mt-2'>
                 <a className='text-decoration-none  d-flex align-items-center text-white d-none d-sm-inline' role="button">
-                    <span><img src={Logo_oBackgroung} style={{width:'100%', marginBottom:'-3rem', marginTop:'-6rem'}}/></span>
+                    <Link to='/'><span><img src={Logo_oBackgroung} style={{width:'100%', marginBottom:'-3rem', marginTop:'-6rem'}}/></span></Link>
                 </a>
                 <hr className='text-white d-none d-sm-block'/>
                 <ul

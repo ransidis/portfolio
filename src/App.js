@@ -13,6 +13,7 @@ import Projects from './Pages/Projects';
 import { LoadingPage } from './LoadingPage';
 import FirstTime from './Pages/FirstTime';
 
+
 function App() {
   const location = useLocation();
 

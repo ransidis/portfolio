@@ -5,6 +5,8 @@ import Skills from '../Components/Skills'
 import './Education.css'
 import Transitions from '../Transitions'
 
+document.title = 'Education | Portfolio'
+
 const Education = () => {
   return (
     <Transitions>

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Typewriter from 'typewriter-effect';
 import Transitions from '../Transitions'
 
+document.title = 'RD Portfolio'
 
 const Home = () => {
   var app = document.getElementById('app');
