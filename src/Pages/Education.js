@@ -3,9 +3,11 @@ import EducationTimeline from '../Components/EducationTimeline'
 import Certificates from '../Components/Certificates'
 import Skills from '../Components/Skills'
 import './Education.css'
+import Transitions from '../Transitions'
 
 const Education = () => {
   return (
+    <Transitions>
     <div>
       <div className='container-fluid education col-12' style={{padding:'2rem'}}>
         <h1 style={{fontWeight:'700',color:'#E6D402'}}>Education</h1>
@@ -24,6 +26,7 @@ const Education = () => {
         </div>
       </div>
     </div>
+    </Transitions>
   )
 }
 

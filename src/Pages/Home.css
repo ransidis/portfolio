@@ -11,4 +11,10 @@
     padding: 0.1rem;
     border-radius: 50%;
     width: 1rem;
+    color: #E6D402;
 }
+.socials .bi:hover{
+    color: #ac9e05;
+}
+
+

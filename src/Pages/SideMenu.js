@@ -35,14 +35,13 @@ function SideMenu() {
                         </Link>
                     </li>
                     <li class="nav-item my-1 py-1 py-sm-0">
-                    <Link to='/' class="nav-link text-center text-sm-start active" aria-current="page" style={{borderRadius:'1rem', fontWeight:'bold'}}>
+                    <Link to='/projects' class="nav-link text-center text-sm-start active" aria-current="page" style={{borderRadius:'1rem', fontWeight:'bold'}}>
                         <i class="bi bi-kanban-fill"></i>
                         <span className='ms-2 d-none d-sm-inline'>PROJECTS</span>
                     </Link>
                     </li>
 
                 </ul>
-                
 
                 </div>
             </div>

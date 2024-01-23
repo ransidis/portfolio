@@ -1,11 +1,33 @@
+#parent li a:focus{
+    color: #E6D402;
+    transform: translateX(10px);
+}
 #parent li a{
     color: white;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
 }
 
 #parent li a:hover{
-    background-color:#E6D402;
-    /* transition: background-color 1s; */
-    color: black;
+    color: #E6D402;
+    transform: translateX(10px);
 }
+
+
+@media (max-width: 767px) {
+    #parent li a:hover{
+        color: #E6D402;
+        transform: translateX(0px);
+    }
+
+    #parent li a{
+        color: white;
+        position: relative;
+        transition: transform 0.3s ease-in-out;
+    }
+    #parent li a:focus{
+        color: #E6D402;
+        transform: translateX(0px);
+  }}
 
 

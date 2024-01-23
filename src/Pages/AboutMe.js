@@ -1,9 +1,11 @@
 import React from 'react'
 import './AboutMe.css'
 import { Link } from 'react-router-dom'
+import Transitions from '../Transitions'
 
 const AboutMe = () => {
   return (
+    <Transitions>
     <div className='container-fluid aboutme'>
       <div className='row '>
         <div className='col'>
@@ -28,6 +30,7 @@ Excited about the prospect of bringing my skills and enthusiasm to your team, th
         </div>
       </div>
     </div>
+    </Transitions>
   )
 }
 

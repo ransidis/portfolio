@@ -3,6 +3,7 @@ import myimage from '../images/myimage.svg'
 import './Home.css'
 import { Link } from 'react-router-dom'
 import Typewriter from 'typewriter-effect';
+import Transitions from '../Transitions'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ var typewriter = new Typewriter(app, {
   delay: 75,
 });
   return (
+    <Transitions>
     <div className='container-fluid home'>
         <div className='row'>
             <img src={myimage} style={{width:'50vh'}}/>
@@ -32,7 +34,7 @@ var typewriter = new Typewriter(app, {
         </p>
         </div>
         <div className='row socials d-inline-block'>
-        <Link to='https://wa.me/+94702526193'><i class="bi bi-whatsapp fs-3"></i></Link>
+        <Link to='https://wa.me/+94702526193' target='_blank'><i class="bi bi-whatsapp fs-3"></i></Link>
         <Link to='mailto:ransirasira@gmail.com'><i class="bi bi-envelope fs-3"></i></Link>
         <Link to='https://www.linkedin.com/in/ransi-rasira-dissanayake/' target='_blank'><i class="bi bi-linkedin fs-3"></i></Link>
         <Link to='https://github.com/ransidis' target='_blank'><i class="bi bi-github fs-3"></i></Link>
@@ -40,6 +42,7 @@ var typewriter = new Typewriter(app, {
 
         </div>
     </div>
+    </Transitions>
   )
 }
 
