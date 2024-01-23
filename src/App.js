@@ -60,7 +60,7 @@ function App() {
                 style={{ overflowY: 'auto', maxHeight: '100vh' }}
               >
                 <Routes location={location} key={location.pathname}>
-                  <Route index element={<Home />} />
+                  <Route index exact element={<Home />} />
                   <Route path='/about-me' element={<AboutMe />} />
                   <Route path='/education' element={<Education />} />
                   <Route path='/projects' element={<Projects />} />
