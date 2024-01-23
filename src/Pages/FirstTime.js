@@ -1,6 +1,5 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-var appfirst = document.getElementById('appfirst');
 
 const FirstTime = () => {
 

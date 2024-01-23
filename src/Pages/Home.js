@@ -10,15 +10,11 @@ document.title = 'RD Portfolio'
 const Home = () => {
   var app = document.getElementById('app');
 
-var typewriter = new Typewriter(app, {
-  loop: true,
-  delay: 75,
-});
   return (
     <Transitions>
     <div className='container-fluid home'>
         <div className='row'>
-            <img src={myimage} style={{width:'50vh'}}/>
+            <img src={myimage} style={{width:'50vh'}} alt="Ransi's Image"/>
         </div>
         <div className='row'>
             <h2>Ransi Dissanayake</h2>
