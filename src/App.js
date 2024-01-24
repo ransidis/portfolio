@@ -22,12 +22,12 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
 
-  const [firstVisit, setFirstVisit] = useState(true);
+  /*const [firstVisit, setFirstVisit] = useState(true);
 
   useEffect(() => {
     // Check if the user has visited before
@@ -40,14 +40,10 @@ function App() {
       // If this is the first visit, set the flag in local storage
       localStorage.setItem('hasVisitedBefore', 'true');
     }
-  }, []);
+  }, []); */
 
   return (
     <>
-      {firstVisit ? (
-        <FirstTime onClose={() => setFirstVisit(false)} />
-      ) : (
-        <>
           {loading ? (
             <LoadingPage />
           ) : (
@@ -68,8 +64,6 @@ function App() {
               </div>
             </div>
           )}
-        </>
-      )}
     </>
   );
 }
