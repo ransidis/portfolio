@@ -7,6 +7,7 @@ import Transitions from '../Transitions';
 //Project images
 import littlelemon from '../images/projects/littlelemon.png'
 import portfolio from '../images/projects/portfolio.png'
+import jsplayground from '../images/jsplayground.png'
 
 document.title = 'Projects | Portfolio'
 
@@ -37,7 +38,19 @@ const Projects = () => {
               }
           ]
 
-      }
+      },{
+        image:jsplayground,
+        title:'JS Playground',
+        description:"In this space, I've gathered a collection of pure JavaScript calculations that I've crafted over time. These projects range from academic-related exercises to practical applications, all designed to showcase the versatility and power of JavaScript.",
+        languages:['HTML | CSS | JS'],
+        links:[
+            {
+                github:'https://github.com/ransidis/js-playground',
+                live:'https://ransidis.github.io/js-playground/index.html'
+            }
+        ]
+
+    }
 
     ]
   return (
