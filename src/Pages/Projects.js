@@ -8,6 +8,7 @@ import Transitions from '../Transitions';
 import littlelemon from '../images/projects/littlelemon.png'
 import portfolio from '../images/projects/portfolio.png'
 import jsplayground from '../images/jsplayground.png'
+import todolist from '../images/todolist.png'
 
 document.title = 'Projects | Portfolio'
 
@@ -50,7 +51,20 @@ const Projects = () => {
             }
         ]
 
-    }
+    },
+    {
+      image:todolist,
+      title:'To Do List',
+      description:"Simple Todo list app where you can add, edit, delete and track tasks.  ",
+      languages:['React.js','HTML | CSS | JS'],
+      links:[
+          {
+              github:'https://github.com/ransidis/todo-app',
+              live:'https://ransidis.github.io/todo-app/'
+          }
+      ]
+
+  }
 
     ]
   return (
