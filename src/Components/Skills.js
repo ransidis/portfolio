@@ -25,6 +25,10 @@ const Skills = () => {
                         <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/color/28/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/></span>Java <span>70%</span> </p>
                         <ProgressBar animated now={70} variant='warning' style={{height:'0.5rem'}}/>
                     </span>
+                    <span id="skill">
+                        <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/color/28/wordpress.png" alt="wordpress"/></span>WordPress <span>80%</span> </p>
+                        <ProgressBar animated now={80} variant='warning' style={{height:'0.5rem'}}/>
+                    </span>
                 </div>
                 <div className='col-12 col-sm-6'>
                 <span id="skill">
