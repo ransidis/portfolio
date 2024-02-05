@@ -47,6 +47,10 @@ const Skills = () => {
                         <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/color/28/bootstrap--v2.png" alt="bootstrap--v2"/></span>Bootstrap <span>80%</span> </p>
                         <ProgressBar animated now={80} variant='warning' style={{height:'0.5rem'}}/>
                     </span>
+                    <span id="skill">
+                        <p style={{marginBottom:'-0.02rem', display:'flex', justifyContent:'space-between'}}><span style={{paddingBottom:'-1rem'}}><img width="28" height="28" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/28/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png" alt="jquery"/></span>JQuery<span>50%</span> </p>
+                        <ProgressBar animated now={50} variant='warning' style={{height:'0.5rem'}}/>
+                    </span>
                 </div>
             </div>
             <div className='row'>

@@ -9,6 +9,8 @@ import littlelemon from '../images/projects/littlelemon.png'
 import portfolio from '../images/projects/portfolio.png'
 import jsplayground from '../images/jsplayground.png'
 import todolist from '../images/todolist.png'
+import cleanenvi from '../images/projects/cleanenvi.png'
+import climatefrontiers from '../images/projects/climatefrontiers.png'
 
 document.title = 'Projects | Portfolio'
 
@@ -64,7 +66,29 @@ const Projects = () => {
           }
       ]
 
-  }
+  },    {
+    image:cleanenvi,
+    title:'Clean Environment Systems Limited',
+    description:"an official business website developed for a Nigerian Company | Freelance project",
+    languages:['Wordpress, CSS','Elementor Pro'],
+    links:[
+        {
+            live:'https://cleanenvironmentsystems.com/clean/'
+        }
+    ]
+
+},    {
+  image:climatefrontiers,
+  title:'Climate Frontiers',
+  description:"Ongoing web development project for a local client, Use GMap APIs",
+  languages:['Wordpress, CSS','Elementor Pro'],
+  links:[
+      {
+          live:'https://climatefrontiers.org/'
+      }
+  ]
+
+}
 
     ]
   return (

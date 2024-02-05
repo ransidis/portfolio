@@ -28,7 +28,7 @@ Excited about the prospect of bringing my skills and enthusiasm to your team, th
       </div>
       <div className='row'>
         <div className='col'>
-          <Link to='https://drive.google.com/file/d/1lA_Cep64D1IwJYWWWcxXOovPKN5ZGqhK/view?usp=sharing' target="_blank"><button style={{borderRadius:'1rem'}}>Download my CV</button></Link>
+          <Link to='https://drive.google.com/file/d/1L0Y9IkA46qlnEyDldZggA47zGqocZbqm/view?usp=sharing' target="_blank"><button style={{borderRadius:'1rem'}}>Download my CV</button></Link>
         </div>
       </div>
     </div>
