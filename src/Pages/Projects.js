@@ -73,7 +73,7 @@ const Projects = () => {
     languages:['Wordpress, CSS','Elementor Pro'],
     links:[
         {
-            live:'https://cleanenvironmentsystems.com/clean/'
+            live:'https://cleanenvironmentsystems.com'
         }
     ]
 
