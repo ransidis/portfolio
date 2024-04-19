@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.baa18fdc.css",
-    "main.js": "/static/js/main.4f15354a.js",
+    "main.js": "/static/js/main.9a786704.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/movielibrary.png": "/static/media/movielibrary.5aa416cce3acfb8d722e.png",
+    "static/media/srilankanews.png": "/static/media/srilankanews.17ed90c83e5cd7939106.png",
     "static/media/littlelemon.png": "/static/media/littlelemon.21ee31b53261d55b555a.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/jsplayground.png": "/static/media/jsplayground.b081b1a1dd3e3630916d.png",
@@ -27,11 +29,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
     "main.baa18fdc.css.map": "/static/css/main.baa18fdc.css.map",
-    "main.4f15354a.js.map": "/static/js/main.4f15354a.js.map",
+    "main.9a786704.js.map": "/static/js/main.9a786704.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baa18fdc.css",
-    "static/js/main.4f15354a.js"
+    "static/js/main.9a786704.js"
   ]
 }
