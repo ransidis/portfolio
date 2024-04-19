@@ -11,6 +11,8 @@ import jsplayground from '../images/jsplayground.png'
 import todolist from '../images/todolist.png'
 import cleanenvi from '../images/projects/cleanenvi.png'
 import climatefrontiers from '../images/projects/climatefrontiers.png'
+import srilankanews from '../images/projects/srilankanews.png'
+import movielibrary from '../images/projects/movielibrary.png'
 
 document.title = 'Projects | Portfolio'
 
@@ -85,6 +87,29 @@ const Projects = () => {
   links:[
       {
           live:'https://climatefrontiers.org/'
+      }
+  ]
+
+}, {
+  image:movielibrary,
+  title:'Movie Library',
+  description:"Sample website focusing on API Intergration with Open source library.",
+  languages:['HTML, CSS','JS','PHP'],
+  links:[
+      {
+          github:'https://github.com/ransidis/movie-library',
+          live:'https://ransidis.github.io/movie-library/'
+      }
+  ]
+
+},{
+  image:srilankanews,
+  title:'Sri Lanka News',
+  description:"News website for a Sri Lankan Marketing Agency, Triple languages support & Wordpress Theme Customization",
+  languages:['Wordpress, CSS','PHP'],
+  links:[
+      {
+          live:'https://srilankanews.lk/'
       }
   ]
 
